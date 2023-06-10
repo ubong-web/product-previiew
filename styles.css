@@ -150,6 +150,10 @@ button {
   margin-top: 30px;
   border-radius: 5px;
 }
+
+.btn-img {
+  padding-right: 20px;
+}
 @media screen and (max-width: 600px) {
   .c-product-card {
     display: grid;
