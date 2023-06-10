@@ -100,7 +100,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: "img" "text"; */
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 .c-product-card__text-half {
   background-color: var(--White);
@@ -127,7 +127,7 @@ body {
   padding-top: 10px;
 }
 .current-price {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--Dark-cyan);
   font-weight: bold;
 }
@@ -152,16 +152,16 @@ button {
 }
 
 .btn-img {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
   .c-product-card {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "img" "text";
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-width: 60%;
+    margin: 30px;
+
+    max-width: 100%;
   }
 
   .c-product-card__img {
