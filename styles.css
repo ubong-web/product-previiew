@@ -159,7 +159,7 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "img" "text";
-    margin: 30px;
+    margin: 15px;
 
     max-width: 100%;
   }
