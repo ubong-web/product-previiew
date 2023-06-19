@@ -40,8 +40,6 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Fraunces", sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -85,8 +83,8 @@ select {
 
 body {
   background-color: var(--main-background);
-  /* font-size: 15px;
-  line-height: 1; */
+  /* font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif; */
 }
 
 .content {
@@ -116,24 +114,28 @@ body {
 .ribbon-text {
   color: var(--Dark-grayish-blue);
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
 }
 .product-name {
   color: var(--Very-dark-blue);
   font-weight: bold;
   padding-top: 10px;
+  line-height: 25px;
+  font-family: "Fraunces", serif;
 }
 .product-description {
   color: var(--Dark-grayish-blue);
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .current-price {
   font-size: 2.5rem;
   color: var(--Dark-cyan);
   font-weight: bold;
+  font-family: "Fraunces", serif;
 }
 
 .product-price {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .srike-through {
   padding-left: 20px;
@@ -142,7 +144,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 30px;
   background-color: var(--Dark-cyan);
   border-color: none;
   color: var(--White);
@@ -159,7 +160,7 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "img" "text";
-    margin: 30px;
+    margin: 15px;
 
     max-width: 100%;
   }
